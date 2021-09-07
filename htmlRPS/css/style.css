@@ -1,0 +1,77 @@
+#score{
+    background-color: cadetblue;
+    height: 17%;
+    width: 23%;
+    float: left;
+    border: 1px  solid  black;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    place-items: center;
+
+}
+#leftPlayer{
+    background-color: blue;
+    height: 55%;
+    width: 35%;
+    border: 1px  solid  black;
+    float: left;
+    margin: 20px;
+    
+    
+}
+#rightPlayer{
+    background-color: blue;
+    float: right;
+    height: 55%;
+    width: 35%;
+    border: 1px  solid  black;
+    margin: 20px;
+    
+    
+    
+}
+#container{
+    width: 100%;
+    height: 100%;
+    border: 1px  solid  black;
+    background-color: chartreuse;
+}
+
+#options{
+    margin:auto;
+    
+}
+
+#up{
+    height: 85%;
+}
+#down{
+    height: 15%;
+    display: flex;
+    background-color: blue;
+    overflow: hidden;
+    margin-bottom: 5%;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
+
+body{
+    overflow: hidden;
+    margin : 0px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+p{
+  margin: auto;
+  text-align: center;
+  display: grid;
+    place-items: center;
+    
+}
